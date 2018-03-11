@@ -1,6 +1,6 @@
 package com.sch.JianZhiOffer;
 
-public class FindNumInTwodimArray {
+public class FindNumInTwoDimArray {
 	public boolean Find(int target, int [][] array) {
         int row = array.length;
         int column = array[0].length;
@@ -18,7 +18,7 @@ public class FindNumInTwodimArray {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FindNumInTwodimArray fn = new FindNumInTwodimArray();
+		FindNumInTwoDimArray fn = new FindNumInTwoDimArray();
 		int[][] array = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
 		System.out.println(fn.Find(5, array));
 	}
